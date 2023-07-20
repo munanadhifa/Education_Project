@@ -29,6 +29,18 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## Template UI 
 
-- HOME TEMPLATE
+- Home Template
 
  ![Alt text](Home_template.png) 
+
+ - Education Template
+
+ ![Alt text](Education_template.png) 
+
+  - Modal Template
+
+ ![Alt text](Modal_template.png) 
+
+  - Add Template
+
+ ![Alt text](Add_education.png) 

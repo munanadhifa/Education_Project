@@ -38,8 +38,6 @@ function Homepage() {
               Enter
             </button>
           </Link>
-
-          {/* <p>{handleSubmit}</p> */}
         </div>
       </div>
     </main>

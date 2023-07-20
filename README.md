@@ -31,4 +31,4 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 - HOME TEMPLATE
 
-  Home_template.png
+ ![Alt text](Home_template.png) 

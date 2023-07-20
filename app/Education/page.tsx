@@ -12,7 +12,6 @@ export default function Education() {
   let { username } = useParams();
 
   const [universityData, setUniversityData] = useState([]);
-
   const [showModal, setShowModal] = React.useState(false);
   const [user, setUser] = useState([]);
   const [educationData, setEducationData] = useState({
@@ -23,7 +22,7 @@ export default function Education() {
     desc: "",
   });
 
-  const handleInput = (e) => {
+  const handleInput = (e: any) => {
     let allData = educationData;
     allData[e.target.name] = e.target.value;
     setEducationData(allData);

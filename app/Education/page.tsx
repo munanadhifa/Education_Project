@@ -11,6 +11,14 @@ import { useParams } from "react-router-dom";
 export default function Education() {
   let { username } = useParams();
 
+  interface educationData {
+    univerity: string;
+    major: string;
+    start_end: string;
+    end_date: string;
+    desc: string;
+  }
+
   const [universityData, setUniversityData] = useState([]);
   const [showModal, setShowModal] = React.useState(false);
   const [user, setUser] = useState([]);
@@ -22,7 +30,7 @@ export default function Education() {
     desc: "",
   });
 
-  const handleInput = (e: any) => {
+  const handleInput = (e: Array) => {
     let allData = educationData;
     allData[e.target.name] = e.target.value;
     setEducationData(allData);
